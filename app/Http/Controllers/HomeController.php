@@ -14,19 +14,17 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function showTask(Task $task){
+    public function showTask(Task $task)
+    {
 //        $task = Task::find($id);
         dd($task);
     }
 
     public function index()
     {
-        try {
-            $task = Task::findOrFail(100);
-            dd($task);
-        }catch (\Exception $ex){
-            return response()->json('همچین موردی یافت نشد',500,[],256);
-        }
+        Task::find(33)->update([
+            'title' => 'updatetd title'
+        ]);
 
         return view('home');
     }
@@ -44,7 +42,7 @@ class HomeController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -55,7 +53,7 @@ class HomeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -66,7 +64,7 @@ class HomeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -77,8 +75,8 @@ class HomeController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -89,7 +87,7 @@ class HomeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
