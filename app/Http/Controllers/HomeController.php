@@ -21,12 +21,11 @@ class HomeController extends Controller
 
     public function index()
     {
-
         try {
             $task = Task::findOrFail(100);
             dd($task);
         }catch (\Exception $ex){
-            return response()->json('همچین موردی یافت نشد',500,[],JSON_UNESCAPED_UNICODE);
+            return response()->json('همچین موردی یافت نشد',500,[],256);
         }
 
         return view('home');
