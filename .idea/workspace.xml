@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aae3811-0161-4d81-a384-5190c3f53ed2" name="Default Changelist" comment="" />
+    <list default="true" id="8aae3811-0161-4d81-a384-5190c3f53ed2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +157,8 @@
       <workItem from="1604870028752" duration="2708000" />
       <workItem from="1604934418369" duration="6958000" />
       <workItem from="1604958595492" duration="588000" />
-      <workItem from="1604959235537" duration="370000" />
+      <workItem from="1604959235537" duration="1325000" />
+      <workItem from="1605021495910" duration="1173000" />
     </task>
     <servers />
   </component>
@@ -194,5 +198,9 @@
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
     <state x="2522" y="124" width="998" height="857" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1604959605235" />
+    <state x="2377" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604959913156">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2377" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1604959913156" />
   </component>
 </project>

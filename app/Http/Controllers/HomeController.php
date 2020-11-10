@@ -21,19 +21,15 @@ class HomeController extends Controller
 
     public function index()
     {
-//        $user = factory(Task::class,30)->create();
-//        $test = DB::table('tasks')->where('user_id',31);
 
-        DB::transaction(function (){
-            DB::table('users')->where('id' , 6)->increment('age');
-            DB::table('users')->where('id' , 7)->decrement('age');
-        });
-//         $users = DB::table('users')->where('id' , 5)->delete();
-//        dd($users);
+        try {
+            $task = Task::findOrFail(100);
+            dd($task);
+        }catch (\Exception $ex){
+            return response()->json('همچین موردی یافت نشد',500,[],JSON_UNESCAPED_UNICODE);
+        }
+
         return view('home');
-//        $persons = ["abbas" , "qasem" , "mohammad" , "mahdi" , "ali"];
-//        return view('home' , compact('persons'));
-        //
     }
 
     /**
