@@ -24,9 +24,9 @@
         </tr>
 
         @if($message = Session::get('success'))
-            <div class="alert alert-success">
+            <div id="alert" class="alert alert-{{$message[1]}}">
                 <p class="text-center">
-                    {{$message}}
+                    {{$message[0]}}
                 </p>
             </div>
         @endif
@@ -38,9 +38,11 @@
             <td>{{$post->user_id}}</td>
             <td>{{$post->created_at}}</td>
             <td>
-                <form action="" method="POST">
+                <form action="{{route('post.destroy' , $post->id)}}" method="POST">
                     <a class="btn btn-info" href="{{route('post.show',$post->id)}}">نمایش</a>
                     <a class="btn btn-primary" href="{{route('post.edit',$post->id)}}">ویرایش</a>
+                    @csrf
+                    @method('DELETE')
                     <button type="submit" class="btn btn-danger">حذف</button>
                 </form>
             </td>
@@ -48,5 +50,11 @@
         @endforeach
 
     </table>
+
+    <script>
+        setTimeout(function (){
+            document.getElementById('alert').style.display='none';
+        },3000)
+    </script>
 
     @endsection

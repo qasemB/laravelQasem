@@ -15,15 +15,19 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>عنوان:</strong>
+                <strong>عنوان:
+                    <span class="text-success"> {{$post->title}} </span>
+                </strong>
 
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>نویسنده:</strong>
+                <strong>نویسنده:
+                    <span class="text-success">{{$post->user_id}}</span>
+                </strong>
 
             </div>
         </div>
     </div>
-    @endsection
+@endsection

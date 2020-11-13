@@ -13,18 +13,20 @@
     </div>
 
 
-    <form action="" method="POST">
+    <form action="{{route('post.update' , $post->id)}}" method="POST">
+        @csrf
+        @method('PUT')
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>عنوان:</strong>
-                    <input type="text" name="" value="" class="form-control" placeholder="">
+                    <input type="text" name="title" value="{{$post->title}}" class="form-control" placeholder="">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>نویسنده:</strong>
-                    <textarea class="form-control" style="height:150px" name="" placeholder=""></textarea>
+                    <input type="text" name="user_id" value="{{$post->user_id}}" class="form-control" placeholder="">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

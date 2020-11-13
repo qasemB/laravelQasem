@@ -38,7 +38,7 @@ class PostController extends Controller
     public function store(Request $request)
     {
         Post::create($request->all());
-        return redirect()->route('post.index')->with('success','پست با موفقیت ثبت شد');
+        return redirect()->route('post.index')->with('success',['پست با موفقیت ثبت شد','success']);
         //
     }
 
@@ -50,7 +50,7 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        return view('post.show');
+        return view('post.show' , compact('post'));
     }
 
     /**
@@ -61,7 +61,7 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
-        return view('post.edit');
+        return view('post.edit' , compact('post'));
     }
 
     /**
@@ -73,7 +73,10 @@ class PostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        //
+        $post->title = $request->title;
+        $post->user_id=$request->user_id;
+        $post->save();
+        return redirect()->route('post.index')->with('success',['پست مورد نظر ب موفقیت بروزرسانی شد','info']);
     }
 
     /**
@@ -84,6 +87,7 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
-        //
+        $post->delete();
+        return redirect()->route('post.index')->with('success',['پست مورد نظر بآ موفقیت حذف شد','danger']);
     }
 }
