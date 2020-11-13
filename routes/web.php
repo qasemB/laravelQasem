@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
-Route::get('/get-task/{task}', 'HomeController@showTask');
+Route::resource('post', 'PostController');
 //Route::get('/get-task/{title}', 'HomeController@showTask');
 
 //Route::get('/' , function (\App\Car $car){

@@ -7,9 +7,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8aae3811-0161-4d81-a384-5190c3f53ed2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Car.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/TestServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/TaskFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_07_211602_create_tasks_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/paragraph.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +176,7 @@
       <workItem from="1605129119477" duration="719000" />
       <workItem from="1605207199585" duration="3150000" />
       <workItem from="1605216442940" duration="1131000" />
+      <workItem from="1605274850734" duration="866000" />
     </task>
     <task id="LOCAL-00001" summary="ok set new changes">
       <created>1605023116178</created>
@@ -233,6 +242,10 @@
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
     <state x="2152" y="178" width="816" height="730" key="#Intentions/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1604785877435" />
+    <state x="2290" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605275063831">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2290" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1605275063831" />
     <state x="2290" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604508132186">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
