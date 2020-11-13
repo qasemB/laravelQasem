@@ -23,6 +23,14 @@
             <th>عملیات</th>
         </tr>
 
+        @if($message = Session::get('success'))
+            <div class="alert alert-success">
+                <p class="text-center">
+                    {{$message}}
+                </p>
+            </div>
+        @endif
+
         @foreach($posts as $post)
         <tr>
             <td>{{$post->id}}</td>

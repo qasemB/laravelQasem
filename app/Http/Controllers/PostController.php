@@ -37,6 +37,8 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        Post::create($request->all());
+        return redirect()->route('post.index')->with('success','پست با موفقیت ثبت شد');
         //
     }
 
