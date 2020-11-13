@@ -2,15 +2,24 @@
 <html>
 <head>
     <title>تاپ لرن</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css"
+          rel="stylesheet">
 </head>
-<body>
+<style>
+    body {
+        font-family: '2  Mitra_2 (MRT)'
+    }
 
-    <div class="container">
+    td, th {
+        text-align: center;
+    }
 
-        @yield('content')
+</style>
+<body dir="rtl">
 
-    </div>
+<div class="container">
+    @yield('content')
+</div>
 
 </body>
 </html>

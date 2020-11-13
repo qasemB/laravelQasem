@@ -12,9 +12,4 @@
 */
 
 Route::resource('post', 'PostController');
-//Route::get('/get-task/{title}', 'HomeController@showTask');
-
-//Route::get('/' , function (\App\Car $car){
-//    return view('home' , compact('car'));
-//});
 
