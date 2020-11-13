@@ -7,7 +7,7 @@
             <h2>ساخت پست جدید</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="">بازگشت</a>
+            <a class="btn btn-primary" href="{{route('post.index')}}">بازگشت</a>
         </div>
     </div>
 </div>
