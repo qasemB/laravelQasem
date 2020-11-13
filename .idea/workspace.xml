@@ -5,10 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aae3811-0161-4d81-a384-5190c3f53ed2" name="Default Changelist" comment="ok set new changes">
+    <list default="true" id="8aae3811-0161-4d81-a384-5190c3f53ed2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +164,10 @@
       <workItem from="1604934418369" duration="6958000" />
       <workItem from="1604958595492" duration="588000" />
       <workItem from="1604959235537" duration="1325000" />
-      <workItem from="1605021495910" duration="5604000" />
+      <workItem from="1605021495910" duration="6367000" />
+      <workItem from="1605129119477" duration="719000" />
+      <workItem from="1605207199585" duration="3150000" />
+      <workItem from="1605216442940" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="ok set new changes">
       <created>1605023116178</created>
@@ -218,6 +222,7 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok set new changes" />

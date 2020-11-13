@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Task;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -22,9 +23,13 @@ class HomeController extends Controller
 
     public function index()
     {
-        Task::find(33)->update([
-            'title' => 'updatetd title'
-        ]);
+//        $tsak = Task::all();
+//        dd($tsak);
+        $user = new User;
+        $user->password = '123456';
+        $user->name = 'قاسم';
+        $user->last_name = 'BASSAKI';
+        $user->save();
 
         return view('home');
     }

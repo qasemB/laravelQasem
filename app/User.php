@@ -8,6 +8,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
+
+    public function setLastNameAttribute($value){
+        $this->attributes['last_name'] = strtolower($value) ;
+    }
+
     use Notifiable;
 
     /**
