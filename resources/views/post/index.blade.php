@@ -35,7 +35,7 @@
         <tr>
             <td>{{$post->id}}</td>
             <td>{{$post->title}}</td>
-            <td>{{$post->user_id}}</td>
+            <td>{{$post->user->name}}</td>
             <td>{{$post->created_at}}</td>
             <td>
                 <form action="{{route('post.destroy' , $post->id)}}" method="POST">

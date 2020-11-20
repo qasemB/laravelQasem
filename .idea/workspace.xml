@@ -7,8 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8aae3811-0161-4d81-a384-5190c3f53ed2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/post/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/post/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/post/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/show.blade.php" afterDir="false" />
     </list>
@@ -169,7 +168,10 @@
       <workItem from="1605129119477" duration="719000" />
       <workItem from="1605207199585" duration="3150000" />
       <workItem from="1605216442940" duration="1131000" />
-      <workItem from="1605274850734" duration="8073000" />
+      <workItem from="1605274850734" duration="8696000" />
+      <workItem from="1605285910870" duration="1629000" />
+      <workItem from="1605362519564" duration="3704000" />
+      <workItem from="1605637205249" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="ok set new changes">
       <created>1605023116178</created>
@@ -267,10 +269,10 @@
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
     <state x="2410" y="222" key="RollbackChangesDialog/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1605023223339" />
-    <state x="2170" y="86" width="998" height="857" key="SettingsEditor" timestamp="1605278200071">
+    <state x="2170" y="86" width="998" height="857" key="SettingsEditor" timestamp="1605286181906">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state x="2170" y="86" width="998" height="857" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1605278200071" />
+    <state x="2170" y="86" width="998" height="857" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1605286181906" />
     <state x="2152" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605023029016">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>

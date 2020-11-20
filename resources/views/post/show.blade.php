@@ -24,7 +24,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>نویسنده:
-                    <span class="text-success">{{$post->user_id}}</span>
+                    <span class="text-success">{{$post->user->name}}</span>
                 </strong>
 
             </div>
