@@ -12,6 +12,7 @@
     </div>
 </div>
 
+@include('layouts.partials.error')
 
 <form action="{{route('post.store')}}" method="POST">
     @csrf

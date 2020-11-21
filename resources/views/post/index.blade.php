@@ -12,6 +12,7 @@
         </div>
     </div>
 
+    @include('layouts.partials.error')
 
 
     <table class="table table-bordered">
