@@ -13,6 +13,8 @@
 
 Route::resource('post', 'PostController');
 
+Route::resource('/shop', 'ShopController');
+
 Route::get('/', function(){
     return view('info');
 });

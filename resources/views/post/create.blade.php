@@ -14,7 +14,7 @@
 
 @include('layouts.partials.error')
 
-<form action="{{route('post.store')}}" method="POST">
+<form action="{{route('shop.store')}}" method="POST">
     @csrf
      <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
